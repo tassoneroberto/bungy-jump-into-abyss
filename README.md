@@ -31,7 +31,7 @@ Official website: [https://kokoromati.orz.hm/bjia/](https://kokoromati.orz.hm/bj
 Please note that this procedure is based on `Windows 10` and `Powershell`.
 
 - [Java JDK/JRE](https://www.oracle.com/java/technologies/downloads/): needed to run Apktool
-- [AssetBundleExtractor](https://github.com/SeriousCache/UABE): needed to manually patch the Unity assets
+- (optional) [AssetBundleExtractor](https://github.com/SeriousCache/UABE): needed to manually patch the Unity assets
 - (optional) [AssetStudio](https://github.com/Perfare/AssetStudio): can be used to easily navigate the Unity assets
 - [APKsigner](https://developer.android.com/studio/command-line/apksigner): needed to sign the APK
 - (optional) [Makefile](https://community.chocolatey.org/packages/make): needed to sign the APK
@@ -50,25 +50,33 @@ Please note that this procedure is based on `Windows 10` and `Powershell`.
     make unpack
     ```
 
-2. From `AssetBundleExtractor` go to `File -> Open` and select the file `.\extracted_apk\assets\bin\Data\data.unity3d`. Select a folder to save the uncompressed files (you can use the current folder `.\`).
+2. Patch the assets
 
-    Select the element `resources.assets (Assets)` as shown below:
+    - Options 1: use the already patched file
 
-    ![AssetBundleExtractor1](./images/assetBundleExtractor.png)
+        Replace the file `.\extracted_apk\assets\bin\Data\data.unity3d` with [this file](<https://github.com/tassoneroberto/BungyJumpIntoAbyss/releases/download/v0.1/data.unity3d>).
 
-    Search and patch the text assets. To patch a text asset you have to select it and then `Plugin -> Import from .txt` selecting the appropriate translated file from the folder `.\translation_files\en\`.
+    - Option 2: patch the single assets manually
 
-    ![AssetBundleExtractor2](./images/assetBundleExtractor2.png)
+        From `AssetBundleExtractor` go to `File -> Open` and select the file `.\extracted_apk\assets\bin\Data\data.unity3d`. Select a folder to save the uncompressed files (you can use the current folder `.\`).
 
-    The files to be patched are the following:
+        Select the element `resources.assets (Assets)` as shown below:
 
-    - abyss
-    - event
-    - item
-    - skill
-    - spchar
+        ![AssetBundleExtractor1](./images/assetBundleExtractor.png)
 
-    When all the files are patched go to `File -> Apply and Save All`. Replace the original file `.\extracted_apk\assets\bin\Data\data.unity3d` with the modded one. Keep the same name otherwise it will not work.
+        Search and patch the text assets. To patch a text asset you have to select it and then `Plugin -> Import from .txt` selecting the appropriate translated file from the folder `.\translation_files\en\`.
+
+        ![AssetBundleExtractor2](./images/assetBundleExtractor2.png)
+
+        The files to be patched are the following:
+
+        - abyss
+        - event
+        - item
+        - skill
+        - spchar
+
+        When all the files are patched go to `File -> Apply and Save All`. Replace the original file `.\extracted_apk\assets\bin\Data\data.unity3d` with the modded one. Keep the same name otherwise it will not work.
 
     Additionally you can change the app name by opening the file `extracted_apk\res\values\strings.xml` and replacing
 
@@ -140,9 +148,17 @@ The English patched APK file will be located in `.\build\signed.apk`.
 
 1. Extract the file `.\original_installers\BungyJumpIntoAbyss.zip`.
 
-2. From `AssetBundleExtractor` go to `File -> Open` and select the extracted file `.\BungyJumpIntoAbyss_Data\resources.assets`.
-    Follow the same procedure used for the Android version (step 2.) to patch the text assets.
-    When all the files are patched go to `File -> Apply and Save All`. Replace the original file `.\BungyJumpIntoAbyss_Data\resources.assets` with the modded one. Keep the same name otherwise it will not work.
+2. Patch the assets
+
+    - Options 1: use the already patched file
+
+        Replace the file `.\BungyJumpIntoAbyss_Data\resources.assets` with [this file](<https://github.com/tassoneroberto/BungyJumpIntoAbyss/releases/download/v0.1/resources.assets>).
+
+    - Option 2: patch the single assets manually
+
+        From `AssetBundleExtractor` go to `File -> Open` and select the extracted file `.\BungyJumpIntoAbyss_Data\resources.assets`.
+        Follow the same procedure used for the Android version (step 2.) to patch the text assets.
+        When all the files are patched go to `File -> Apply and Save All`. Replace the original file `.\BungyJumpIntoAbyss_Data\resources.assets` with the modded one. Keep the same name otherwise it will not work.
 
 Note: gamesave will be located in `C:\Users\{USER}\AppData\LocalLow\kokoromati\バンジージャンプ イントゥ アビス`.
 
