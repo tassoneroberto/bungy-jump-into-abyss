@@ -34,7 +34,7 @@ Please note that this procedure is based on `Windows 10` and `Powershell`.
 - (optional) [AssetBundleExtractor](https://github.com/SeriousCache/UABE): needed to manually patch the Unity assets
 - (optional) [AssetStudio](https://github.com/Perfare/AssetStudio): can be used to easily navigate the Unity assets
 - [APKsigner](https://developer.android.com/studio/command-line/apksigner): needed to sign the APK
-- (optional) [Makefile](https://community.chocolatey.org/packages/make): needed to sign the APK
+- (optional) [Makefile](https://community.chocolatey.org/packages/make): needed to execute the make commands
 
 ## Patch the Android version
 
