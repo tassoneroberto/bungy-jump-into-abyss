@@ -1,0 +1,28 @@
+{
+   "spchars":[
+      {
+         "id":"spchar-リコ",
+         "name":"Riko",
+         "desc":"Appeared because you brought back a rainbow-class relic. She is good at getting relics. Hire name: リコ",
+         "nameLock":"？？",
+         "descLock":"Unlocking Tips:\nBring back a rare class relic. The depth is irrelevant",
+         "prefab":"prefab/char/riko"
+      },
+      {
+         "id":"spchar-レグ",
+         "name":"Reg",
+         "desc":"Appeared because you got an electric chair. The curse doesn't work on him. Hire name: レグ",
+         "nameLock":"？？",
+         "descLock":"Unlocking Tip:\nMaybe they will appear after buying an item. Could it be really close?",
+         "prefab":"prefab/char/regu"
+      },
+      {
+         "id":"spchar-ナナチ",
+         "name":"Nanachi",
+         "desc":"Appeared because you got a stuffed bird. Good at leveling up and supporting. Hire name: ナナチ",
+         "nameLock":"？？？",
+         "descLock":"Unlocking Tips:\nBring back something special from the Layer 4 of the Abyss. Hmm ~",
+         "prefab":"prefab/char/nanati"
+      }
+   ]
+}

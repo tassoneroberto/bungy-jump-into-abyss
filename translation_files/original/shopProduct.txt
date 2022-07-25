@@ -1,0 +1,15 @@
+{"shopProducts":[
+	"item-ツルハシ",
+	"item-良いツルハシ",
+	"item-最高のツルハシ",
+	"item-石灯",
+	"item-良い石灯",
+	"item-最高の石灯",
+	"item-予防接種",
+	"item-酸素ボンベ",
+	"item-白笛レプリカ",
+	"item-辛子饅頭",
+	"item-行動食４号",
+	"item-ヒガ油",
+	"item-電気椅子"
+]}

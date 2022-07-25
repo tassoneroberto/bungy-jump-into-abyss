@@ -1,0 +1,664 @@
+{"items":[
+	{
+		"id":"item-ツルハシ",
+		"name":"Pickaxe",
+		"desc":"Exploration supplies. Use it as a weapon. Avoid 50 physical damage 12 times",
+		"buy":2100,
+		"sell":210,
+		"countMax":12,
+		"avertPhysical":50
+	},
+	{
+		"id":"item-良いツルハシ",
+		"name":"Good Pickaxe",
+		"desc":"Higher quality exploration supplies. Use it as a weapon. Avoid 150 physical damage 12 times",
+		"buy":13200,
+		"sell":1320,
+		"countMax":12,
+		"avertPhysical":150
+	},
+	{
+		"id":"item-最高のツルハシ",
+		"name":"Best Pickaxe",
+		"desc":"Highest quality exploration supplies. Use it as a weapon. Avoid 250 physical damage 12 times",
+		"buy":65000,
+		"sell":6500,
+		"countMax":12,
+		"avertPhysical":250
+	},
+	{
+		"id":"item-ウロコ傘",
+		"name":"Scale Umbrella",
+		"desc":"Fourth-class relic. Avoid 193 physical damage twice. Physical points +21",
+		"sell":2300,
+		"countMax":2,
+		"avertPhysical":193,
+		"offsetPP":21
+	},
+	{
+		"id":"item-スミ砂",
+		"name":"Sumi Sand",
+		"desc":"Third-class relic. Avoid 495 physical damage twice. Physical points +32",
+		"sell":12300,
+		"countMax":2,
+		"avertPhysical":495,
+		"offsetPP":32
+	},
+	{
+		"id":"item-意識で動く腕",
+		"name":"Consciously Arms",
+		"desc":"First-class relic. Avoid 489 physical damage 9 times. Physical points +53",
+		"sell":213000,
+		"countMax":9,
+		"avertPhysical":489,
+		"offsetPP":53
+	},
+	{
+		"id":"item-鉄を切る鋏",
+		"name":"Scissors Cutting Iron",
+		"desc":"First-class relic. Avoid 347 physical damage 22 times. Physical points +34",
+		"sell":242000,
+		"countMax":22,
+		"avertPhysical":347,
+		"offsetPP":34
+	},
+	{
+		"id":"item-霧織り",
+		"name":"Fog Weave",
+		"desc":"Third-class relic. Thin cloth. Avoid 244 physical damage 19 times. Physical points +9",
+		"sell":13900,
+		"countMax":19,
+		"avertPhysical":244,
+		"offsetPP":9
+	},
+	{
+		"id":"item-枢機へ還す光",
+		"name":"Pivot Light",
+		"desc":"Unknown-class relic. Belonged to Bondrewd. Avoid 710 physical twice. Physical points +88",
+		"sell":243000,
+		"countMax":2,
+		"avertPhysical":710,
+		"offsetPP":88
+	},
+	{
+		"id":"item-明星へ登る",
+		"name":"Star Climbing",
+		"desc":"Unknown-class relic. Belonged to Bondrewd. Avoid 460 physical damage 4 times. Physical points +88",
+		"sell":211000,
+		"countMax":4,
+		"avertPhysical":460,
+		"offsetPP":88
+	},
+	{
+		"id":"item-呪い針",
+		"name":"Cursed Needle",
+		"desc":"Unknown-class relic. Belonged to Bondrewd. Avoid 230 physical damage 21 times. Physical points +88",
+		"sell":197000,
+		"countMax":21,
+		"avertPhysical":230,
+		"offsetPP":88
+	},
+	{
+		"id":"item-月に触れる",
+		"name":"Touch the Moon",
+		"desc":"Second-class relic. Belonged to Bondrewd. Avoid 90 physical damage 23 times. Physical points +88",
+		"sell":63000,
+		"countMax":23,
+		"avertPhysical":90,
+		"offsetPP":88
+	},
+	{
+		"id":"item-暁に至る天蓋",
+		"name":"Dawn Canopy",
+		"desc":"Unknown-class relic. Belonged to Bondrewd. Avoid 110 physical damage countless times. Physical points +88",
+		"sell":255000,
+		"avertPhysical":110,
+		"offsetPP":88
+	},
+	{
+		"id":"item-壊れた無尽鎚",
+		"name":"Broken Hammer",
+		"desc":"Belonged to Lyza. Can only be used a few times. Avoid 333 physical damage 3 times. Physical points +5",
+		"sell":49000,
+		"countMax":3,
+		"avertPhysical":333,
+		"offsetPP":5
+	},
+	{
+		"id":"item-無尽鎚",
+		"name":"Hammer",
+		"desc":"Belonged to Lyza. Avoid 333 physical damage countless times. Physical points +55",
+		"sell":828000,
+		"avertPhysical":333,
+		"offsetPP":55
+	},
+	{
+		"id":"item-石灯",
+		"name":"Stone Lantern",
+		"desc":"Exploration equipment. It illuminates the darkness. Avoid 50 mental damage 12 times",
+		"buy":1900,
+		"sell":190,
+		"countMax":12,
+		"avertMental":50
+	},
+	{
+		"id":"item-良い石灯",
+		"name":"Good Stone Lantern",
+		"desc":"Higher quality exploration supplies. It illuminates the darkness. Avoid 150 mental damage 12 times",
+		"buy":11000,
+		"sell":1100,
+		"countMax":12,
+		"avertMental":150
+	},
+	{
+		"id":"item-最高の石灯",
+		"name":"Best Stone Lantern",
+		"desc":"Highest quality exploration supplies. It illuminates the darkness. Avoid 250 mental damage 12 times",
+		"buy":61200,
+		"sell":6120,
+		"countMax":12,
+		"avertMental":250
+	},
+	{
+		"id":"item-決して切れない糸",
+		"name":"Unbreakable Thread",
+		"desc":"Special-class relic. Avoid 810 physical and mental damage twice. Physical and mental value +32",
+		"sell":891200,
+		"countMax":2,
+		"avertPhysical":810,
+		"avertMental":810,
+		"offsetPP":32,
+		"offsetMP":32
+	},
+	{
+		"id":"item-天気を当てる風見鶏",
+		"name":"Weathercock",
+		"desc":"Second-class relic. Avoid 512 mental damage 5 times. Mental points +14",
+		"buy":51400,
+		"sell":6120,
+		"countMax":5,
+		"avertMental":512,
+		"offsetMP":14
+	},
+	{
+		"id":"item-見えない光を見る眼鏡",
+		"name":"Invisible View",
+		"desc":"First-class relic. Avoid 684 mental damage 4 times. Mental points +29",
+		"sell":179000,
+		"countMax":4,
+		"avertMental":684,
+		"offsetMP":29
+	},
+	{
+		"id":"item-鏡写しの面",
+		"name":"Mirrored Surface",
+		"desc":"Relic. Avoid 77 mental damage 32 times. Mental points +41",
+		"sell":211000,
+		"countMax":32,
+		"avertMental":77,
+		"offsetMP":41
+	},
+	{
+		"id":"item-頭の苗床",
+		"name":"Mental Nursery",
+		"desc":"Relic. Avoid 291 mental damage 9 times. Mental points +31",
+		"sell":205000,
+		"countMax":9,
+		"avertMental":291,
+		"offsetMP":31
+	},
+	{
+		"id":"item-精神隷属機",
+		"name":"Mental Slave Machine",
+		"desc":"Special-class relic. Avoid 656 mental damage 8 times. Mental points +88",
+		"sell":812900,
+		"countMax":8,
+		"avertMental":656,
+		"offsetMP":88
+	},
+	{
+		"id":"item-鳥のぬいぐるみ",
+		"name":"Stuffed Bird",
+		"desc":"Made by Nanachi. Avoid 77 mental damage countless times. Mental points +77",
+		"sell":50,
+		"avertMental":77,
+		"offsetMP":77
+	},
+	{
+		"id":"item-塵を集める壺",
+		"name":"Dust Collecting Jar",
+		"desc":"Second-class relic. Avoid 293 mental damage 15 times. Mental points +15",
+		"sell":43000,
+		"countMax":15,
+		"avertMental":293,
+		"offsetMP":15
+	},
+
+	{
+		"id":"item-予防接種",
+		"name":"Vaccine",
+		"desc":"Commercial item. It prevents getting sick",
+		"buy":13000,
+		"sell":1300,
+		"avertSickness":true
+	},
+	{
+		"id":"item-酸素ボンベ",
+		"name":"Oxygen Cylinder",
+		"desc":"Commercial item. It prevents drowning",
+		"buy":98000,
+		"sell":98000,
+		"avertDrowning":true
+	},
+	{
+		"id":"item-空気を生む遺物",
+		"name":"Air-Producing Relic",
+		"desc":"Relic. It prevents drowning. Mental points +26",
+		"sell":31400,
+		"offsetMP":26,
+		"avertDrowning":true
+	},
+	{
+		"id":"item-カートリッジx1",
+		"name":"Cartridge x1",
+		"desc":"Belonged to Bondrewd. Avoid the Abyss' curse once",
+		"sell":135000,
+		"countMax":1,
+		"avertCursing":true
+	},
+	{
+		"id":"item-カートリッジx2",
+		"name":"Cartridge x2",
+		"desc":"Belonged to Bondrewd. Avoid the Abyss' curse twice",
+		"sell":165000,
+		"countMax":2,
+		"avertCursing":true
+	},
+	{
+		"id":"item-カートリッジx3",
+		"name":"Cartridge x3",
+		"desc":"Belonged to Bondrewd. Avoid the Abyss' curse 3 times",
+		"sell":195000,
+		"countMax":3,
+		"avertCursing":true
+	},
+	{
+		"id":"item-呪い除けの籠",
+		"name":"Curse-Proof Crib",
+		"desc":"A huge square box. Avoid the Abyss' curse. Physical points -99",
+		"sell":897000,
+		"avertPhysical":-99,
+		"avertCursing":true
+	},
+
+	{
+		"id":"item-白笛レプリカ",
+		"name":"White Whistle Replica",
+		"desc":"Commercial item. White flute Lyza's flute replica. Mental points +20",
+		"buy":2500,
+		"sell":250,
+		"offsetMP":20
+	},
+	{
+		"id":"item-辛子饅頭",
+		"name":"Mustard Bun",
+		"desc":"Commercial item. The taste of hometown. Physical points +20",
+		"buy":1900,
+		"sell":190,
+		"offsetPP":20
+	},
+	{
+		"id":"item-行動食４号",
+		"name":"Action Food No. 4",
+		"desc":"Commercial item. Wall taste. Physical and mental points +10",
+		"buy":2300,
+		"sell":230,
+		"offsetPP":10,
+		"offsetMP":10
+	},
+	{
+		"id":"item-不屈の花",
+		"name":"Indomitable Flower",
+		"desc":"The one that blooms in the Abyss. Mental points +10",
+		"sell":10,
+		"offsetMP":10
+	},
+	{
+		"id":"item-命を響く石",
+		"name":"Life Stone",
+		"desc":"Second-class relic. Physical and mental points +61",
+		"sell":51200,
+		"offsetPP":61,
+		"offsetMP":61
+	},
+	{
+		"id":"item-水を生む盃",
+		"name":"Producing-Water Cup",
+		"desc":"First-class relic. Physical and mental points +97. It prevents getting sick",
+		"sell":201200,
+		"offsetPP":97,
+		"offsetMP":97,
+		"avertSickness":true
+	},
+	{
+		"id":"item-命を延ばす酒",
+		"name":"Prolonging-Life Sake",
+		"desc":"Special-class relic. Physical and mental +164. It prevents getting sick and drowning",
+		"sell":975200,
+		"offsetPP":164,
+		"offsetMP":164,
+		"avertSickness":true,
+		"avertDrowning":true
+	},
+	{
+		"id":"item-コマ石",
+		"name":"Top Stone",
+		"desc":"Relic. You can play by turning it like a top. Mental points +6",
+		"sell":200,
+		"offsetMP":6
+	},
+	{
+		"id":"item-かっこいいコマ石",
+		"name":"Cool Top Stone",
+		"desc":"Relic. You can play by turning it like a top. Mental points +16",
+		"sell":900,
+		"offsetMP":16
+	},
+	{
+		"id":"item-強いコマ石",
+		"name":"Strong Top Stone",
+		"desc":"Relic. You can play by turning it like a top. Mental points +26",
+		"sell":3700,
+		"offsetMP":26
+	},
+	{
+		"id":"item-姫乳房",
+		"name":"Princess Breast",
+		"desc":"Relic. Feels the same as female breast. Mental points +32",
+		"sell":1500,
+		"offsetMP":32
+	},
+	{
+		"id":"item-巨大な姫乳房",
+		"name":"Giant Princess Breast",
+		"desc":"Relic. Feels the same as female breast. Mental points +68",
+		"sell":2600,
+		"offsetMP":68
+	},
+	{
+		"id":"item-美しい姫乳房",
+		"name":"Beautiful Princess Breast",
+		"desc":"Relic. Feels the same as female breast. Mental points +99",
+		"sell":5100,
+		"offsetMP":99
+	},
+	{
+		"id":"item-星の羅針盤",
+		"name":"Star Compass",
+		"desc":"Fourth-class relic. Mental points +55",
+		"sell":3200,
+		"offsetMP":55
+	},
+	{
+		"id":"item-太陽玉",
+		"name":"Sun Jade",
+		"desc":"Relic. It shines brightly. Mental points +42",
+		"sell":2900,
+		"offsetMP":42
+	},
+	{
+		"id":"item-おいしい猿ぐつわ",
+		"name":"Delicious Gag",
+		"desc":"Relic. Physical and mental points +39",
+		"sell":8900,
+		"offsetPP":39,
+		"offsetMP":39
+	},
+	{
+		"id":"item-肉粘土",
+		"name":"Meat Clay",
+		"desc":"Relic. Physical value +159, mental value +21",
+		"sell":33100,
+		"offsetPP":159,
+		"offsetMP":21
+	},
+	{
+		"id":"item-感情を操る頭巾",
+		"name":"Emotions Hood",
+		"desc":"Relic. Physical value +25, mental value +153",
+		"sell":36400,
+		"offsetPP":25,
+		"offsetMP":153
+	},
+	{
+		"id":"item-首刈りマスク",
+		"name":"Neck Cutting Mask",
+		"desc":"Relic. Physical and mental points -33. Earn 1.5 times more exp. points",
+		"sell":59900,
+		"offsetPP":-33,
+		"offsetMP":-33,
+		"ratioExp":1.5
+	},
+	{
+		"id":"item-千人楔x1",
+		"name":"Thousands of Wedges x1",
+		"desc":"First-class relic. Belonged to Ozen. Physical points +10. Physical weapons 1.2 times stronger",
+		"sell":232000,
+		"ratioAvertPhyPower":1.2,
+		"offsetPP":10
+	},
+	{
+		"id":"item-千人楔x5",
+		"name":"Thousands of Wedges x5",
+		"desc":"First-class relic. Belonged to Ozen. Physical points +50. Physical weapons 1.4 times stronger",
+		"sell":252000,
+		"ratioAvertPhyPower":1.4,
+		"offsetPP":50
+	},
+	{
+		"id":"item-千人楔x10",
+		"name":"Thousands of Wedges x10",
+		"desc":"First-class relic. Belonged to Ozen. Physical points +100. Physical weapons 1.6 times stronger",
+		"sell":272000,
+		"ratioAvertPhyPower":1.6,
+		"offsetPP":100
+	},
+	{
+		"id":"item-千人楔x20",
+		"name":"Thousands of Wedges x20",
+		"desc":"First-class relic. Belonged to Ozen. Physical points +200. Physical weapons 1.8 times stronger",
+		"sell":292000,
+		"ratioAvertPhyPower":1.8,
+		"offsetPP":200
+	},
+
+	{
+		"id":"item-電気椅子",
+		"name":"Electric Chair",
+		"desc":"Commercial item. A torture tool. Physical and mental points -9",
+		"buy":31500,
+		"sell":3150,
+		"offsetPP":-9,
+		"offsetMP":-9
+	},
+	{
+		"id":"item-ヒガ油",
+		"name":"Higa Oil",
+		"desc":"Commercial item. Physical damage events are a little less likely to occur",
+		"buy":26500,
+		"sell":2650,
+		"ratioPPDamageEvent":0.8
+	},
+	{
+		"id":"item-探窟手帳",
+		"name":"Exploration Notebook",
+		"desc":"A notebook dropped by Rico. More time to choose the relic",
+		"sell":52,
+		"selectTime":2.0
+	},
+	{
+		"id":"item-時を止める鐘",
+		"name":"Time-Stopping Bell",
+		"desc":"Special-class relic. A lot more time to choose the relic. Earn 2 times more exp. points",
+		"sell":1251000,
+		"percentTakeout":100,
+		"selectTime":5.0,
+		"ratioExp":2.0
+	},
+	{
+		"id":"item-死人を乗っ取る面",
+		"name":"Death-Hijacking Face",
+		"desc":"Relic. 100% chance to bring back the relic even if you die",
+		"sell":58100,
+		"percentTakeout":100
+	},
+	{
+		"id":"item-トランシーバー",
+		"name":"Transceiver",
+		"desc":"A device to communicate with others. Experience points are shared",
+		"sell":32100,
+		"shareExp":1.0
+	},
+
+	{
+		"id":"item-マルルクのパンツ",
+		"name":"Marulk Pants",
+		"desc":"Belonged to Marulk. Cute pants. Mental recovery events increased. Mental weapons counter +2. Rare",
+		"sell":6900,
+		"ratioAvertMenCount":2.0,
+		"ratioMPCureEvent":5.0
+	},
+	{
+		"id":"item-オーゼンの陣笠",
+		"name":"Ozen's Camp Hat",
+		"desc":"Belonged to Ozen. Hard headgear. Mental damage events decreased. Mental weapons 2 times stronger. Rare",
+		"sell":13000,
+		"ratioAvertMenPower":2.0,
+		"ratioMPDamageEvent":0.6
+	},
+	{
+		"id":"item-プルシュカの帽子",
+		"name":"Prushka Hat",
+		"desc":"Belonged to Prushka. Meinha inside. Physical recovery events increased. Physical weapons counter +2. Rare",
+		"sell":8100,
+		"ratioAvertPhyCount":2.0,
+		"ratioPPCureEvent":5.0
+	},
+	{
+		"id":"item-ライザの羽飾り",
+		"name":"Lyza's Plume",
+		"desc":"Belonged to Lyza. Hat decoration. Physical damage events decreased. Physical weapons 2 times stronger. Rare",
+		"sell":16000,
+		"ratioAvertPhyPower":2.0,
+		"ratioPPDamageEvent":0.6
+	},
+	{
+		"id":"item-ボンドルドの仮面",
+		"name":"Bondrewd's Mask",
+		"desc":"Belonged to Bondrewd. Physical and mental points are fixed at 888. Rare",
+		"sell":23000,
+		"fixPP":888,
+		"fixMP":888
+	},
+	{
+		"id":"item-ファプタのゴーグル",
+		"name":"Faputa Goggles",
+		"desc":"Armed Faputa. Physical and mental points +333. Rare",
+		"sell":24000,
+		"offsetPP":333,
+		"offsetMP":333
+	},
+
+	{
+		"id":"item-銅の卵",
+		"name":"Copper Egg",
+		"desc":"Relics of unknown use. For selling",
+		"sell":200,
+		"forCashing":true
+	},
+	{
+		"id":"item-銀の卵",
+		"name":"Silver Egg",
+		"desc":"Relics of unknown use. For selling",
+		"sell":1000,
+		"forCashing":true
+	},
+	{
+		"id":"item-金の卵",
+		"name":"Golden Egg",
+		"desc":"Relics of unknown use. For selling",
+		"sell":5000,
+		"forCashing":true
+	},
+	{
+		"id":"item-虹の卵",
+		"name":"Rainbow Egg",
+		"desc":"Relics of unknown use. For selling",
+		"sell":25000,
+		"forCashing":true
+	},
+	{
+		"id":"item-銅の古銭",
+		"name":"Old Copper Coin",
+		"desc":"Relics of unknown use. For selling",
+		"sell":1000,
+		"forCashing":true
+	},
+	{
+		"id":"item-銀の古銭",
+		"name":"Old Silver Coin",
+		"desc":"Relics of unknown use. For selling",
+		"sell":5000,
+		"forCashing":true
+	},
+	{
+		"id":"item-金の古銭",
+		"name":"Old Gold Coin",
+		"desc":"Relics of unknown use. For selling",
+		"sell":25000,
+		"forCashing":true
+	},
+	{
+		"id":"item-虹の古銭",
+		"name":"Old Rainbow Coin",
+		"desc":"Relics of unknown use. For selling",
+		"sell":125000,
+		"forCashing":true
+	},
+	{
+		"id":"item-銅の宝玉",
+		"name":"Copper Jewel",
+		"desc":"Relics of unknown use. For selling",
+		"sell":5000,
+		"forCashing":true
+	},
+	{
+		"id":"item-銀の宝玉",
+		"name":"Silver Jewel",
+		"desc":"Relics of unknown use. For selling",
+		"sell":25000,
+		"forCashing":true
+	},
+	{
+		"id":"item-金の宝玉",
+		"name":"Gold Jewel",
+		"desc":"Relics of unknown use. For selling",
+		"sell":125000,
+		"forCashing":true
+	},
+	{
+		"id":"item-虹の宝玉",
+		"name":"Rainbow Jewel",
+		"desc":"Relics of unknown use. For selling",
+		"sell":625000,
+		"forCashing":true
+	},
+	{
+		"id":"item-テスト用アイテム",
+		"name":"Test Item",
+		"desc":"Test Item",
+		"buy":10,
+		"sell":10,
+		"avertDrowning":false
+	}
+]}

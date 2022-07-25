@@ -1,0 +1,394 @@
+{"skills":[
+	{
+		"id":"skill-オース式体術",
+		"name":"Orth Martial Arts",
+		"desc":"Basic bare-handed martial arts. Avoid 30 physical damage",
+		"avertPhysical":30
+	},
+	{
+		"id":"skill-オース式必殺拳",
+		"name":"Orth Deadly Fist",
+		"desc":"A special technique that cannot be used many times. Avoid 90 physical damage 12 times",
+		"countMax":12,
+		"avertPhysical":90
+	},
+	{
+		"id":"skill-オース式全力拳",
+		"name":"Orth Power Fist",
+		"desc":"Punch that hits with full power. Avoid 270 physical damage 4 times",
+		"countMax":4,
+		"avertPhysical":270
+	},
+	{
+		"id":"skill-火葬砲",
+		"name":"Incinerator",
+		"desc":"A deadly beam emitted from the Reg's hand. Avoid any physical damage 3 times",
+		"countMax":3,
+		"avertPhysical":9999
+	},
+	{
+		"id":"skill-オース式呼吸",
+		"name":"Orth Breathing",
+		"desc":"Basic mental stability method. Avoid 30 mental damage",
+		"avertMental":30
+	},
+	{
+		"id":"skill-オース式集中法",
+		"name":"Orth Meditation",
+		"desc":"Meditation skill to get rid of mental fatigue. Avoid 90 mental damage 12 times",
+		"countMax":12,
+		"avertMental":90
+	},
+	{
+		"id":"skill-オース式現実逃避",
+		"name":"Orth Escapism",
+		"desc":"I will do my best to get rid of my mental fatigue. Avoid 270 mental damage 4 times",
+		"countMax":4,
+		"avertMental":270
+	},
+	{
+		"id":"skill-ふわふわ",
+		"name":"Fluffy",
+		"desc":"Nanachi's fur is the best. Avoid all mental damage 3 times",
+		"countMax":3,
+		"avertMental":9999
+	},
+	{
+		"id":"skill-病気耐性",
+		"name":"Disease Tolerance",
+		"desc":"A strong body and mind can repel illness. It prevents getting sick",
+		"avertSickness":true
+	},
+	{
+		"id":"skill-水泳技術",
+		"name":"Swimming Skill",
+		"desc":"Excellent swimmer. It prevents drowning",
+		"avertDrowning":true
+	},
+	{
+		"id":"skill-呪い耐性",
+		"name":"Curse Tolerance",
+		"desc":"A rare skill that against the Abyss' curse. Avoid the Abyss' curse once",
+		"countMax":1,
+		"avertCursing":true
+	},
+	{
+		"id":"skill-機械の体",
+		"name":"Machine Body",
+		"desc":"Reg's soft but sturdy body. Immune from curses and illnesses",
+		"avertSickness":true,
+		"avertDrowning":true,
+		"avertCursing":true
+	},
+	{
+		"id":"skill-頑丈",
+		"name":"Robust",
+		"desc":"Some attacks are crap. Physical points +30。",
+		"offsetPP":30,
+		"offsetMP":0,
+		"offsetPo":0
+	},
+	{
+		"id":"skill-マイペース",
+		"name":"Self Pace",
+		"desc":"What a shock. Mental value +30。",
+		"offsetPP":0,
+		"offsetMP":30,
+		"offsetPo":0
+	},
+	{
+		"id":"skill-元気",
+		"name":"Energetic",
+		"desc":"Physically and mentally healthy. Physical and mental points +30",
+		"offsetPP":30,
+		"offsetMP":30,
+		"offsetPo":0
+	},
+	{
+		"id":"skill-大器晩成",
+		"name":"Great Late Talents",
+		"desc":"The more you grow, the stronger you become. Potential +2",
+		"offsetPP":0,
+		"offsetMP":0,
+		"offsetPo":2
+	},
+	{
+		"id":"skill-超頑丈",
+		"name":"Super Robust",
+		"desc":"Some attacks are crap. Physical points +60",
+		"offsetPP":60,
+		"offsetMP":0,
+		"offsetPo":0
+	},
+	{
+		"id":"skill-超マイペース",
+		"name":"Super Self-Paced",
+		"desc":"What a shock. Mental points +60",
+		"offsetPP":0,
+		"offsetMP":60,
+		"offsetPo":0
+	},
+	{
+		"id":"skill-超元気",
+		"name":"Super Energetic",
+		"desc":"Physically and mentally healthy. Physical and mental points +60",
+		"offsetPP":60,
+		"offsetMP":60,
+		"offsetPo":0
+	},
+	{
+		"id":"skill-超大器晩成",
+		"name":"Super Late Talents",
+		"desc":"The more you grow, the stronger you become. Potential +4",
+		"offsetPP":0,
+		"offsetMP":0,
+		"offsetPo":4
+	},
+	{
+		"id":"skill-体に響く応援",
+		"name":"Support with body cheering",
+		"desc":"Support jumpers. Explorers only. Physical points +50 for others",
+		"target":"other",
+		"offsetPP":50,
+		"offsetMP":0
+	},
+	{
+		"id":"skill-心に響く応援",
+		"name":"Support with heart cheering",
+		"desc":"Support jumpers. Explorers only. Mental points +50 for others",
+		"target":"other",
+		"offsetPP":0,
+		"offsetMP":50
+	},
+	{
+		"id":"skill-体に激しく響く応援",
+		"name":"Support with great body cheering",
+		"desc":"Support jumpers. Explorers only. Physical points +100 for others",
+		"target":"other",
+		"offsetPP":100,
+		"offsetMP":0
+	},
+	{
+		"id":"skill-心に激しく響く応援",
+		"name":"Support with great mental cheering",
+		"desc":"Support jumpers. Explorers only. Mental points +100 for others",
+		"target":"other",
+		"offsetPP":0,
+		"offsetMP":100
+	},
+	{
+		"id":"skill-最果ての右手",
+		"name":"Right Hand",
+		"desc":"Support jumpers. Explorers only. Physical points +150 for others. Avoid 390 physical damage 3 times",
+		"target":"other",
+		"countMax":3,
+		"avertPhysical":390,
+		"offsetPP":150,
+		"offsetMP":0
+	},
+	{
+		"id":"skill-旅の左手",
+		"name":"Left Hand",
+		"desc":"Support jumpers. Explorers only. Mental points +150 for others. Avoid 390 mental damage 3 times",
+		"target":"other",
+		"countMax":3,
+		"avertMental":390,
+		"offsetPP":0,
+		"offsetMP":150
+	},
+	{
+		"id":"skill-鑑定眼",
+		"name":"Identifying Eye",
+		"desc":"Identify which relics are valuable. More time to choose the relic",
+		"selectTime":2.0
+	},
+	{
+		"id":"skill-人間遺物録",
+		"name":"Human Relics",
+		"desc":"See all the relics that are valuable. A lot more time to choose the relic",
+		"selectTime":5.0
+	},
+	{
+		"id":"skill-遺物への愛",
+		"name":"Love for Relics",
+		"desc":"I will not let go of the relics. 50% chance to bring back the relic even if you die",
+		"percentTakeout":50
+	},
+	{
+		"id":"skill-ちょろまかし",
+		"name":"Choromakashi",
+		"desc":"Be sure to bring the relics home. 100% chance to bring back the relic even if you die",
+		"percentTakeout":100
+	},
+	{
+		"id":"skill-アビスの祝福",
+		"name":"Blessings of Abyss",
+		"desc":"Receive the blessing of Abyss. Doubles the experience points you get when you survive",
+		"ratioExp":2.0
+	},
+	{
+		"id":"skill-オース式学習法",
+		"name":"Orth Learning Skill",
+		"desc":"A learning method that allows you to grow efficiently. Earn 1.5 times more exp. points",
+		"ratioExp":1.5
+	},
+	{
+		"id":"skill-知識の共有",
+		"name":"Knowledge Sharing",
+		"desc":"A rare skill to share experience and skills with everyone. Experience points are shared to all",
+		"target":"all",
+		"shareExp":1.0
+	},
+	{
+		"id":"skill-体の危険回避",
+		"name":"Avoiding Physical Danger",
+		"desc":"Don't get close to Kimiko. Physical damage events are a little less likely to occur",
+		"ratioPPDamageEvent":0.8
+	},
+	{
+		"id":"skill-心の危険回避",
+		"name":"Avoiding Mental Danger",
+		"desc":"Don't get close to Kimiko. Mental damage events are a little less likely to occur",
+		"ratioMPDamageEvent":0.8
+	},
+	{
+		"id":"skill-危険回避",
+		"name":"Avoiding Danger",
+		"desc":"Don't get close to Kimiko. Physical and mental damage events are a little less likely to occur",
+		"ratioPPDamageEvent":0.8,
+		"ratioMPDamageEvent":0.8
+	},
+	{
+		"id":"skill-体の豪運",
+		"name":"Body Fortune",
+		"desc":"Is recovery the best defense? Physical recovery events are a little more likely to occur",
+		"ratioPPCureEvent":1.2
+	},
+	{
+		"id":"skill-心の豪運",
+		"name":"Mental Fortune",
+		"desc":"Is recovery the best defense? Mental recovery events are a little more likely to occur",
+		"ratioMPCureEvent":1.2
+	},
+	{
+		"id":"skill-豪運",
+		"name":"Fortune",
+		"desc":"Is recovery the best defense? Physical and mental recovery events are a little more likely to occur",
+		"ratioPPCureEvent":1.2,
+		"ratioMPCureEvent":1.2
+	},
+	{
+		"id":"skill-武装修理の心得",
+		"name":"Armed Repair Tips",
+		"desc":"Don't take care of others' gears. Physical and mental weapons counter 1.5 times more",
+		"ratioAvertPhyCount":1.5,
+		"ratioAvertMenCount":1.5
+	},
+	{
+		"id":"skill-武装修理屋さん",
+		"name":"Armed Repair Shop",
+		"desc":"Take care of others' gears. Physical and mental weapons counter 1.5 times more for all",
+		"target":"all",
+		"ratioAvertPhyCount":1.5,
+		"ratioAvertMenCount":1.5
+	},
+	{
+		"id":"skill-武装強化の心得",
+		"name":"Armed Strengthening Tips",
+		"desc":"Don't take care of others' gears. Physical and mental weapons 1.5 times stronger",
+		"ratioAvertPhyPower":1.5,
+		"ratioAvertMenPower":1.5
+	},
+	{
+		"id":"skill-武装強化屋さん",
+		"name":"Armed Strengthening Shop",
+		"desc":"Take care of others' gears. Physical and mental weapons 1.5 times stronger for all",
+		"target":"all",
+		"ratioAvertPhyPower":1.5,
+		"ratioAvertMenPower":1.5
+	},
+	{
+		"id":"skill-アビスクラフター",
+		"name":"Abyss Crafter",
+		"desc":"Skilled Abyss craftsman. Physical and mental weapons 1.4 stronger and counter 1.4 times more for all",
+		"target":"all",
+		"ratioAvertPhyCount":1.4,
+		"ratioAvertMenCount":1.4,
+		"ratioAvertPhyPower":1.4,
+		"ratioAvertMenPower":1.4
+	},
+	{
+		"id":"skill-投石の援護",
+		"name":"Support with Stones",
+		"desc":"Support jumpers with stones. Explorers only. Avoid 10 physical damage",
+		"target":"other",
+		"avertPhysical":10
+	},
+	{
+		"id":"skill-弓矢の援護",
+		"name":"Support with Bow",
+		"desc":"Support jumpers with a bow. Explorers only. Avoid 60 physical damage 6 times",
+		"target":"other",
+		"countMax":6,
+		"avertPhysical":60
+	},
+	{
+		"id":"skill-大砲の援護",
+		"name":"Support with Cannon",
+		"desc":"Support jumpers with a cannon. Explorers only. Avoid 180 physical damage twice",
+		"target":"other",
+		"countMax":2,
+		"avertPhysical":180
+	},
+	{
+		"id":"skill-掛声の援護",
+		"name":"Support with Shouts",
+		"desc":"Support jumpers with a shout. Explorers only. Avoid 10 mental damage",
+		"target":"other",
+		"avertMental":10
+	},
+	{
+		"id":"skill-太鼓の援護",
+		"name":"Support with Drums",
+		"desc":"Support jumpers with a drum. Explorers only. Avoid 60 mental damage 6 times",
+		"target":"other",
+		"countMax":6,
+		"avertMental":60
+	},
+	{
+		"id":"skill-釣鐘の援護",
+		"name":"Support with Bell",
+		"desc":"Support jumpers with a bell. Explorers only. Avoid 180 mental damage twice",
+		"target":"other",
+		"countMax":2,
+		"avertMental":180
+	},
+	{
+		"id":"skill-病気の回避祈願",
+		"name":"Illness Avoidance Prayer",
+		"desc":"I pray to escape the illness. Explorers only. Avoid illness",
+		"target":"other",
+		"avertSickness":true
+	},
+	{
+		"id":"skill-海難の回避祈願",
+		"name":"Drowing avoidance prayer",
+		"desc":"I pray for the escape of the sea accidents. Explorers only. Avoid drowning",
+		"target":"other",
+		"avertDrowning":true
+	},
+	{
+		"id":"skill-呪いの回避祈願",
+		"name":"Curse Avoidance Prayer",
+		"desc":"I pray to escape the curse of Abyss. Explorers only. Avoid the curse once",
+		"target":"other",
+		"countMax":1,
+		"avertCursing":true
+	},
+	{
+		"id":"skill-テスト用スキル",
+		"name":"Testing skills",
+		"desc":"Testing skills",
+		"avertDrowning":false
+	}
+]}
