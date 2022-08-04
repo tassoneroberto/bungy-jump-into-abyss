@@ -170,47 +170,49 @@ To add this item you need to modify the file `.\translation_files\en\item.txt` b
 
 ```json
     {
-        "id":"item-godmode",
-        "name":"God Mode",
-        "desc":"Invincible. Exp. multiplier. Shared exp. Time relic selection.",
-        "buy":1,
-        "sell":9999999,
-        "avertDrowning":true,
-        "avertSickness":true,
-        "avertCursing":true
-        "fixPP":99999,
-        "fixMP":99999,
-        "ratioAvertMenPower":100.0,
-        "ratioAvertPhyPower":100.0,
-        "ratioPPDamageEvent":0.01,
-        "ratioMPDamageEvent":0.01,
-        "ratioMPCureEvent":10.0,
-        "ratioExp":1000.0,
-        "avertPhysical":999999,
-        "avertMental":999999,
-        "shareExp":1.0,
-        "percentTakeout":100,
-        "selectTime":5.0,
+        "id": "item-godmode",
+        "name": "God Mode",
+        "desc": "Invincible. Exp. multiplier. Shared exp. Time relic selection.",
+        "buy": 1,
+        "sell": 9999999,
+        "avertDrowning": true,
+        "avertSickness": true,
+        "avertCursing": true,
+        "fixPP": 99999,
+        "fixMP": 99999,
+        "ratioAvertMenPower": 100.0,
+        "ratioAvertPhyPower": 100.0,
+        "ratioPPDamageEvent": 0.01,
+        "ratioMPDamageEvent": 0.01,
+        "ratioMPCureEvent": 10.0,
+        "ratioExp": 1000.0,
+        "avertPhysical": 999999,
+        "avertMental": 999999,
+        "shareExp": 1.0,
+        "percentTakeout": 100,
+        "selectTime": 5.0,
     }
 ```
 
 You also need to add this item in the in-game shop by modifying the file `.\translation_files\en\shopProduct.txt` and including an extra element in the list:
 
 ```json
-    {"shopProducts":[
-        "item-ツルハシ",
-        "item-良いツルハシ",
-        "item-最高のツルハシ",
-        "item-石灯",
-        "item-良い石灯",
-        "item-最高の石灯",
-        "item-予防接種",
-        "item-酸素ボンベ",
-        "item-白笛レプリカ",
-        "item-辛子饅頭",
-        "item-行動食４号",
-        "item-ヒガ油",
-        "item-電気椅子",
-        "item-godmode"
-    ]}
+    {
+        "shopProducts": [
+            "item-ツルハシ",
+            "item-良いツルハシ",
+            "item-最高のツルハシ",
+            "item-石灯",
+            "item-良い石灯",
+            "item-最高の石灯",
+            "item-予防接種",
+            "item-酸素ボンベ",
+            "item-白笛レプリカ",
+            "item-辛子饅頭",
+            "item-行動食４号",
+            "item-ヒガ油",
+            "item-電気椅子",
+            "item-godmode"
+        ]
+    }
 ```
