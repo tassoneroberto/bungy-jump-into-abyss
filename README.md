@@ -54,7 +54,7 @@ Please note that this procedure is based on `Windows 10` and `Powershell`.
 
     - Options 1: use the already patched file
 
-        Replace the file `.\extracted_apk\assets\bin\Data\data.unity3d` with [this file](<https://github.com/tassoneroberto/bungy-jump-into-abyss/releases/download/v0.1/data.unity3d>).
+        Replace the file `.\extracted_apk\assets\bin\Data\data.unity3d` with [this file](<https://github.com/tassoneroberto/bungy-jump-into-abyss/releases/download/v0.2/data.unity3d>).
 
     - Option 2: patch the single assets manually
 
@@ -152,7 +152,7 @@ The English patched APK file will be located in `.\build\signed.apk`.
 
     - Options 1: use the already patched file
 
-        Replace the file `.\BungyJumpIntoAbyss_Data\resources.assets` with [this file](<https://github.com/tassoneroberto/bungy-jump-into-abyss/releases/download/v0.1/resources.assets>).
+        Replace the file `.\BungyJumpIntoAbyss_Data\resources.assets` with [this file](<https://github.com/tassoneroberto/bungy-jump-into-abyss/releases/download/v0.2/resources.assets>).
 
     - Option 2: patch the single assets manually
 
